@@ -178,7 +178,7 @@ img {
 .header {
   width: 100%;
   position: fixed;
-  bottom: 0;
+  top: 0;
   left: 0;
   z-index: var(--z-fixed);
   background-color: var(--body-color);
@@ -250,7 +250,7 @@ img {
 .nav__close {
   position: absolute;
   right: 1.3rem;
-  bottom: 0.5rem;
+  top: 0.5rem;
   font-size: 1.5rem;
   cursor: pointer;
   color: var(--first-color);
@@ -262,7 +262,7 @@ img {
 
 /* show menu */
 .show-menu {
-  bottom: 0;
+  top: 0;
 }
 
 /* Active link */
